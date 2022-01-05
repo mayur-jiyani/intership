@@ -1,5 +1,5 @@
 console.log('utils.js');
 
-const name = 'jiyani';
+const add = (a, b) => a+b;
 
-module.exports = name;
+module.exports = add;

@@ -3,6 +3,7 @@
 // fs.writeFileSync('notes.txt', 'Here is the conetent of notes');
 // fs.appendFileSync('notes.txt', 'Your first note');
 
-const name = require('./utils')
+const add = require('./utils')
 
-console.log;
+const sum = add(12, 2);
+console.log(sum);
