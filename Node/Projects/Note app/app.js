@@ -1,9 +1,5 @@
-// const fs = require('fs')
+const note = require('./notes');
 
-// fs.writeFileSync('notes.txt', 'Here is the conetent of notes');
-// fs.appendFileSync('notes.txt', 'Your first note');
-
-const add = require('./utils')
-
-const sum = add(12, 2);
-console.log(sum);
+const validate = require('validator');
+console.log(validate.isEmail('mayur@gmail.com'));
+console.log(validate.isURL('mayur.com'));
