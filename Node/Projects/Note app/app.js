@@ -6,5 +6,12 @@
 
 
 const chalk = require('chalk');
+const yargs = require('yargs');
+// console.log(chalk.red.bold.inverse('Success'));
 
-console.log(chalk.green.bold.inverse('Success'));
+// console.log(process.argv);
+
+// console.log(yargs.argv);
+yargs.command({
+    
+})
