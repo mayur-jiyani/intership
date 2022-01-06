@@ -5,6 +5,7 @@ const addNote = (title, body) => {
     const notes = loadNotes()
     const duplicateNote = notes.find((note) => note.title === title)
 
+    // debugger
     if (!duplicateNote) {
         notes.push({
             title: title,
@@ -17,7 +18,7 @@ const addNote = (title, body) => {
     }
 }
 
-const removeNote = (title) => {
+const removeNotes = (title) => {
     const notes = loadNotes()
     const notesToKeep = notes.filter((note) => note.title !== title)
 
@@ -68,7 +69,7 @@ const loadNotes = () => {
 
 module.exports = {
     addNote: addNote,
-    removeNote: removeNote,
+    removeNotes: removeNotes,
     listNotes: listNotes,
     readNotes: readNotes
 }
