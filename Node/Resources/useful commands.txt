@@ -1,0 +1,6 @@
+
+start mongodb server in windows:
+mongod.exe --dbpath=E:\Mtech\mayur\mongodb-data
+
+start mongodb server in ubantu:
+sudo mongodb/bin/mongod --dbpath=./mongodb-data
