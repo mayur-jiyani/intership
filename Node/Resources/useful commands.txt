@@ -4,3 +4,5 @@ mongod.exe --dbpath=G:\Mtech\mayur\mongodb-data
 
 start mongodb server in ubantu:
 sudo mongodb/bin/mongod --dbpath=./mongodb-data
+
+https://github.com/rohit-raj/inventory
