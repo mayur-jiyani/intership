@@ -6,3 +6,13 @@ start mongodb server in ubantu:
 sudo mongodb/bin/mongod --dbpath=./mongodb-data
 
 https://github.com/rohit-raj/inventory
+
+https://medium.com/@rahulguptalive/create-crud-apis-in-nodejs-express-and-mysql-abda4dfc2d6
+ 	
+https://www.js-tutorials.com/nodejs-tutorial/node-js-rest-api-add-edit-delete-record-mysql-using-express/
+
+https://www.npmjs.com/package/express-winston
+
+https://www.section.io/engineering-education/logging-with-winston/
+
+https://youtu.be/cWi7TAyVoZo
