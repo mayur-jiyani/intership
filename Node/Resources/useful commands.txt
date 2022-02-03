@@ -5,6 +5,17 @@ mongod.exe --dbpath=G:\Mtech\mayur\mongodb-data
 start mongodb server in ubantu:
 sudo mongodb/bin/mongod --dbpath=./mongodb-data
 
+kill mogodb server process:
+sudo pkill -f mongod
+
+when header-stops after some percentage:
+sudo apt-get clean
+cd var/lib/apt
+sudo mv lists lists.old
+sudo mkdir -p lists/partial
+sudo apt-get clean
+sudo apt-get update
+
 https://github.com/rohit-raj/inventory
 
 https://medium.com/@rahulguptalive/create-crud-apis-in-nodejs-express-and-mysql-abda4dfc2d6
