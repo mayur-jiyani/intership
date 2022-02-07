@@ -8,6 +8,9 @@ sudo mongodb/bin/mongod --dbpath=./mongodb-data
 kill mogodb server process:
 sudo pkill -f mongod
 
+uninstall postman in ubantu
+sudo snap remove postman
+
 when header-stops after some percentage:
 sudo apt-get clean
 cd var/lib/apt
