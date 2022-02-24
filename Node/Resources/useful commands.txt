@@ -11,6 +11,9 @@ sudo pkill -f mongod
 uninstall postman in ubantu
 sudo snap remove postman
 
+start mysql cli in ubantu
+sudo mysql -u root
+
 when header-stops after some percentage:
 sudo apt-get clean
 cd var/lib/apt
